@@ -2,6 +2,8 @@
 
 A MakeCode editor extension for the HiTechnic IR Seeker V2 sensor.
 
+Link: https://www.hitechnic.com/cgi-bin/commerce.cgi?preadd=action&key=NSK1042
+
 ## Wire Connections
 
 The wire connections from the HiTechnic sensor are as follows:
