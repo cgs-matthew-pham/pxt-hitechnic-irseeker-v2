@@ -59,28 +59,28 @@ namespace IRSeekerV2 {
   }
 
   //% blockId=ir_getACDir block="get AC direction"
-  export function getACDir(): number {
+  export function getACDirection(): number {
     let readBuf = readACRaw();
     let values = populateValues(readBuf);
     return values.direction;
   }
 
   //% blockId=ir_getACStr block="get AC strength"
-  export function getACStr(): number {
+  export function getACStrength(): number {
     let readBuf = readACRaw();
     let values = populateValues(readBuf);
     return values.strength;
   }
 
   //% blockId=ir_getDCDir block="get DC direction"
-  export function getDCDir(): number {
+  export function getDCDirection(): number {
     let readBuf = readDCRaw();
     let values = populateValues(readBuf);
     return values.direction;
   }
 
   //% blockId=ir_getDCStr block="get DC strength"
-  export function getDCStr(): number {
+  export function getDCStrength(): number {
     let readBuf = readDCRaw();
     let values = populateValues(readBuf);
     return values.strength;
