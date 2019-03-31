@@ -35,7 +35,7 @@ basic.forever(function () {
 ```blocks
 IRSeekerV2.initialise()
 basic.forever(function () {
-  let strength = IRSeekerV2.getACStr()
+  let strength = IRSeekerV2.getACStrength()
     led.plotBarGraph(strength, 200)
 })
 
