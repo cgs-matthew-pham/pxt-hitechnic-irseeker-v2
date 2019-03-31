@@ -1,10 +1,12 @@
 {
     "name": "hitechnic-irseeker-v2",
     "version": "0.0.1",
-    "description": "A library for the HiTechnic IR Seeker V2 sensor.",
-    "icon": "./static/libs/ir.png",
+    "description": "A MakeCode editor extension for the HiTechnic IR Seeker V2 sensor.",
+    "license": "MIT",
+    "icon": "./libs/hitechnic-irseeker-v2/ir.png",
     "files": [
-        "main.ts"
+      "README.md",
+      "main.ts"
     ],
     "dependencies": {
         "core": "file:../core"
