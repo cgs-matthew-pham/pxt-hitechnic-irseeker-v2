@@ -3,7 +3,6 @@
     "version": "0.0.1",
     "description": "A MakeCode editor extension for the HiTechnic IR Seeker V2 sensor.",
     "license": "MIT",
-    "icon": "./libs/hitechnic-irseeker-v2/ir.png",
     "files": [
       "README.md",
       "main.ts"
