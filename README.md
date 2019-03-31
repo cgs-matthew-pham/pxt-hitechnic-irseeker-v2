@@ -26,7 +26,8 @@ Then you can use one of the following blocks to return the direction of the ball
 ```blocks
 IRSeekerV2.initialise()
 basic.forever(function () {
-    basic.showNumber(IRSeekerV2.getACDirection())
+  let direction = IRSeekerV2.getACDirection()
+  basic.showNumber(direction)
 })
 ```
 
@@ -34,10 +35,8 @@ basic.forever(function () {
 ```blocks
 IRSeekerV2.initialise()
 basic.forever(function () {
-    led.plotBarGraph(
-    IRSeekerV2.getACStr(),
-    200
-    )
+  let strength = IRSeekerV2.getACStr()
+    led.plotBarGraph(strength, 200)
 })
 
 ```
